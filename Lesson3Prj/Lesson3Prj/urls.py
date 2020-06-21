@@ -20,4 +20,5 @@ from Lesson3App import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('list/', views.list,name='listall'),
+    path('create/', views.create,name='insert'),
 ]
